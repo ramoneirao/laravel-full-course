@@ -1,6 +1,6 @@
 # Repositório de Estudos Laravel
 
-Este repositório foi criado para acompanhar e praticar os conceitos apresentados no vídeo [Laravel 11 - Curso Completo e Gratuito (YouTube)](https://www.youtube.com/watch?v=0M84Nk7iWkA&t=2587s).
+Este repositório foi criado para acompanhar e praticar os conceitos apresentados no vídeo [Laravel 12 in 11 hours - Laravel for Beginners Full Course](https://youtu.be/0M84Nk7iWkA?si=6_K381z_WpMiXpcxs).
 
 O objetivo é servir como base de estudos, experimentação e aprendizado dos principais recursos do framework Laravel, incluindo:
 
