@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CarController;
 
 Route::get('/', function () {
     $pessoa = [
@@ -15,6 +16,13 @@ Route::get('/', function () {
 
 Route::view('/about', 'about');
 
-Route::get('/product/{id}', function(string $id) {
-    return "Works!  {$id}";
-})->whereNumber('id');
+Route::get('/sum/{a}/{b}', function (float $a, float $b) {
+    $sum = $a + $b;
+
+    return $sum;  
+})->whereNumber(['a', 'b']);
+
+Route::controller(CarController::class)->group(function () {
+    Route::get('/car', [CarController::class, 'index']);
+    Route::get('/my-cars', [CarController::class, 'myCars']);
+});
