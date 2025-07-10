@@ -1,4 +1,4 @@
-# Repositório de Estudos Laravel
+# Estudo de Laravel
 
 Este repositório foi criado para acompanhar e praticar os conceitos apresentados no vídeo [Laravel 12 in 11 hours - Laravel for Beginners Full Course](https://youtu.be/0M84Nk7iWkA?si=6_K381z_WpMiXpcxs).
 
